@@ -6,7 +6,9 @@ import com.example.excepnionspring3.exception.EmployeeStoragelsFullException;
 import com.example.excepnionspring3.model.Employee;
 import org.springframework.stereotype.Service;
 
-import java.util.*;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.Map;
 
 @Service
 public class EmployeeService {
@@ -58,9 +60,9 @@ public class EmployeeService {
         return employee;
     }
 
-    public List<Employee> getAll() {
-        return Collections.unmodifiableList(new ArrayList<>(employees.values()));
-    }
+    // public List<Employee> getAll() {
+    //    return Collections.unmodifiableList(new ArrayList<>(employees.values()));
+    // }
 
     private static String createKey(Employee employee) {
 
