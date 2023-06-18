@@ -1,4 +1,4 @@
-package com.example.excepnionspring3.exception;
+package com.example.excepnionSpringLibrary1.exception;
 
 public class EmployeeAlreadyAddedException extends RuntimeException { // чтобы класс превратился в исключение
 

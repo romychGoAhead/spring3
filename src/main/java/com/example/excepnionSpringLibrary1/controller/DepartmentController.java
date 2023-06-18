@@ -1,7 +1,7 @@
-package com.example.excepnionspring3.controller;
+package com.example.excepnionSpringLibrary1.controller;
 
-import com.example.excepnionspring3.model.Employee;
-import com.example.excepnionspring3.service.DepartmentService;
+import com.example.excepnionSpringLibrary1.model.Employee;
+import com.example.excepnionSpringLibrary1.service.DepartmentService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;

@@ -1,7 +1,7 @@
-package com.example.excepnionspring3.service;
+package com.example.excepnionSpringLibrary1.service;
 
-import com.example.excepnionspring3.exception.EmployeeNotFoundException;
-import com.example.excepnionspring3.model.Employee;
+import com.example.excepnionSpringLibrary1.exception.EmployeeNotFoundException;
+import com.example.excepnionSpringLibrary1.model.Employee;
 import org.springframework.stereotype.Service;
 
 import java.util.Comparator;

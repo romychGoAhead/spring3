@@ -1,19 +1,28 @@
-package com.example.excepnionspring3.model;
+package com.example.excepnionSpringLibrary1.model;
 
 import java.util.Objects;
 
 public class Employee {
 
-    private final String firstName;
-    private final String lastName;
+    private String firstName;
+    private String lastName;
     private int department;
     private double salary;
 
-    public Employee(String firstName, String lastName, int department, double salary) {
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
         this.firstName = firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
         this.lastName = lastName;
-        this.department = department;
-        this.salary = salary;
     }
 
     public int getDepartment() {
@@ -32,13 +41,11 @@ public class Employee {
         this.salary = salary;
     }
 
-    public String getFirstName() {
-        return firstName;
-    }
-
-
-    public String getLastName() {
-        return lastName;
+    public Employee(String firstName, String lastName, int department, double salary) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.department = department;
+        this.salary = salary;
     }
 
     @Override
@@ -63,5 +70,7 @@ public class Employee {
 
 
     }
-
 }
+
+
+
