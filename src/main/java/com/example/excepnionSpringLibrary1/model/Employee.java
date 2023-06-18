@@ -3,7 +3,6 @@ package com.example.excepnionSpringLibrary1.model;
 import java.util.Objects;
 
 public class Employee {
-
     private String firstName;
     private String lastName;
     private int department;
